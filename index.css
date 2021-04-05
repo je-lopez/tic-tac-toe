@@ -1,0 +1,40 @@
+h1 {
+  padding-top: 20px;
+}
+
+#game-container {
+  margin: 0px auto;
+  width: 315px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#game-status {
+  height: 25px;
+  font-size: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  flex: 0 0 32%;
+  height: 100px;
+  margin-bottom: 5px;
+  background-color: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
